@@ -23,6 +23,7 @@
 		FA5394EE24949143000120C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5394ED24949143000120C3 /* ContentView.swift */; };
 		FA5394F224949604000120C3 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5394F124949604000120C3 /* turtlerock.jpg */; };
 		FA5394F424949620000120C3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5394F324949620000120C3 /* CircleImage.swift */; };
+		FA5394F6249496C9000120C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5394F5249496C9000120C3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FA5394ED24949143000120C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5394F124949604000120C3 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock.jpg; path = ../../../Downloads/CreatingAndCombiningViews/Resources/turtlerock.jpg; sourceTree = "<group>"; };
 		FA5394F324949620000120C3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FA5394F5249496C9000120C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				FA5394ED24949143000120C3 /* ContentView.swift */,
 				FA5394F324949620000120C3 /* CircleImage.swift */,
+				FA5394F5249496C9000120C3 /* MapView.swift */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				FA5394EE24949143000120C3 /* ContentView.swift in Sources */,
 				FA5394D924947446000120C3 /* SearchUserView.swift in Sources */,
 				FA5394A924946FE6000120C3 /* AppDelegate.swift in Sources */,
+				FA5394F6249496C9000120C3 /* MapView.swift in Sources */,
 				FA5394E3249476B7000120C3 /* SearchUserRow.swift in Sources */,
 				FA5394F424949620000120C3 /* CircleImage.swift in Sources */,
 				FA5394E924948BF2000120C3 /* ViiewList.swift in Sources */,
