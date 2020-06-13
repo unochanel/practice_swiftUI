@@ -78,13 +78,13 @@
 		FA5394A724946FE6000120C3 /* SwiftUI-sample */ = {
 			isa = PBXGroup;
 			children = (
-				FA5394E724948BE1000120C3 /* ViewList */,
 				FA5394A824946FE6000120C3 /* AppDelegate.swift */,
 				FA5394AA24946FE6000120C3 /* SceneDelegate.swift */,
 				FA5394AE24946FEE000120C3 /* Assets.xcassets */,
 				FA5394F124949604000120C3 /* turtlerock.jpg */,
 				FA5394B324946FEE000120C3 /* LaunchScreen.storyboard */,
 				FA5394B624946FEE000120C3 /* Info.plist */,
+				FA5394E724948BE1000120C3 /* ViewList */,
 				FA5394EC24948D5C000120C3 /* Tutorial */,
 				FA5394E624948BCE000120C3 /* SearchUI */,
 				FA5394B024946FEE000120C3 /* Preview Content */,
