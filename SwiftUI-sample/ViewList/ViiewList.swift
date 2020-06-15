@@ -10,6 +10,9 @@ struct ViewList: View {
                 NavigationLink(destination: SearchUserView()) {
                     ViewListRow(name: "SearchUI")
                 }
+                NavigationLink(destination: Home()) {
+                    ViewListRow(name: "ViewListRow")
+                }
             }
             .navigationBarTitle(Text("ViewList"))
         }

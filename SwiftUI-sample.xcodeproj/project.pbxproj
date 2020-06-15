@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA34347F24979EC0006053D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34347E24979EC0006053D4 /* Home.swift */; };
+		FA34348124979FE2006053D4 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34348024979FE2006053D4 /* HomeList.swift */; };
 		FA5394A924946FE6000120C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5394A824946FE6000120C3 /* AppDelegate.swift */; };
 		FA5394AB24946FE6000120C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5394AA24946FE6000120C3 /* SceneDelegate.swift */; };
 		FA5394AF24946FEE000120C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5394AE24946FEE000120C3 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA34347E24979EC0006053D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FA34348024979FE2006053D4 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		FA5394A524946FE6000120C3 /* SwiftUI-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5394A824946FE6000120C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5394AA24946FE6000120C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA34347D24979E8B006053D4 /* DesignCode */ = {
+			isa = PBXGroup;
+			children = (
+				FA34347E24979EC0006053D4 /* Home.swift */,
+				FA34348024979FE2006053D4 /* HomeList.swift */,
+			);
+			path = DesignCode;
+			sourceTree = "<group>";
+		};
 		FA53949C24946FE6000120C3 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 				FA5394B624946FEE000120C3 /* Info.plist */,
 				FA5394E724948BE1000120C3 /* ViewList */,
 				FA5394EC24948D5C000120C3 /* Tutorial */,
+				FA34347D24979E8B006053D4 /* DesignCode */,
 				FA5394E624948BCE000120C3 /* SearchUI */,
 				FA5394B024946FEE000120C3 /* Preview Content */,
 			);
@@ -317,6 +331,7 @@
 				FA53953C2494A16E000120C3 /* CircleImage.swift in Sources */,
 				FA53950724949C68000120C3 /* LandmarkData.swift in Sources */,
 				FA5394D924947446000120C3 /* SearchUserView.swift in Sources */,
+				FA34347F24979EC0006053D4 /* Home.swift in Sources */,
 				FA5394A924946FE6000120C3 /* AppDelegate.swift in Sources */,
 				FA5394E3249476B7000120C3 /* SearchUserRow.swift in Sources */,
 				FA5394FB2494997F000120C3 /* Landmark.swift in Sources */,
@@ -325,6 +340,7 @@
 				FA53953D2494A16E000120C3 /* MapView.swift in Sources */,
 				FA5394AB24946FE6000120C3 /* SceneDelegate.swift in Sources */,
 				FA5394E1249476A3000120C3 /* SearchUserResponse.swift in Sources */,
+				FA34348124979FE2006053D4 /* HomeList.swift in Sources */,
 				FA5395212494A081000120C3 /* LandmarkList.swift in Sources */,
 				FA5394DF24947529000120C3 /* SearchUserViewModel.swift in Sources */,
 				FA53950324949B88000120C3 /* LandmarkDetail.swift in Sources */,
@@ -464,7 +480,6 @@
 		FA5394D024946FEF000120C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-sample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -483,7 +498,6 @@
 		FA5394D124946FEF000120C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-sample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
